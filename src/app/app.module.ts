@@ -7,6 +7,7 @@ import { EncabezadoComponent } from './encabezado/encabezado.component';
 import { ListaExclusivosComponent } from './lista-exclusivos/lista-exclusivos.component';
 import { PieComponent } from './pie/pie.component';
 import { ExclusivoComponent } from './exclusivo/exclusivo.component';
+import { HttpClientModule } from '@angular/common/http';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { ExclusivoComponent } from './exclusivo/exclusivo.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]
