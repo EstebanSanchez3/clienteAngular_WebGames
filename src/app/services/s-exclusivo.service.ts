@@ -25,7 +25,9 @@ import { Observable, observable } from "rxjs";
 
 //CONEXIÓN CON ECLIPSE
   this.exclusivos_ps4 = this.clientHttp.get<exclusivo[]>
-  ("http://localhost:8080/crearExclusivos")
+  
+//CONECTA CON @GetMapping DE RESTCONTOLLER 
+  ("http://localhost:8080/exclusivos")
   return this.exclusivos_ps4
     }
 }
