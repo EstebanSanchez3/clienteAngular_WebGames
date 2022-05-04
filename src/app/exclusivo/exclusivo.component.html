@@ -1,1 +1,26 @@
-<p>exclusivo works!</p>
+<main class="M_Cuerpo">
+    <section class="M_Caja_Horizontal">
+        <div class="M_Exclusivo">
+            <div>
+<!--ENTRE LAS LLAVES APARECEN LOS DATOS DE MODELS!-->
+<!--CLASS EXCLUSIVO Y CONSTRUCTOR CREADO!-->
+<!--DENTRO DE ESTAS LLAVES APARECERÁN DATOS DE ECLIPSE Y BBDD!-->
+    <img class="M_Caratula" src={{exclusivo.imagen}} />
+</div>
+<div class="M_Caja_Texto">
+<div class="M_Texto_Titulo">
+    <span>{{exclusivo.nombre}}</span>
+</div>
+<div class="M_Texto_Anio">
+    <span th>{{exclusivo.anio_estreno}}</span>
+</div>
+<div class="M_Texto_Sinopsis">
+    <span>{{exclusivo.sinopsis}}</span>
+</div>
+</div>
+<div>
+    <video controls class="M_Trailer" src={{exclusivo.trailer}}></video>
+         </div>
+    </div>
+</section>
+</main>

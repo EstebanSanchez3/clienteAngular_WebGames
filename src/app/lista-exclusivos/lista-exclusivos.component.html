@@ -1,1 +1,17 @@
-<p>lista-exclusivos works!</p>
+<!--AQUÍ EN CAJA HTML ESTAMOS DICIENDO QUE HAGA UN EXLUSIVO↓↓
+↑↑POR CADA ECLUSIVO QUE HAY EN ECLIPSE!-->
+
+<!--↓↓↓DENTRO DE "NGFOR"!↓↓↓-->
+<!--LET ES (2ºNOMBRE DE CADA EXCLUSIVO)!-->
+<!--OF ES (1ºNOMBRE BBDD) TS del mismo "CAJA"!-->
+  <div class="M_Exclusivos"
+
+     *ngFor="let exclu of exclusivos_ps4">
+<!--HASTA NGFOR PRIMERA PARTE HTML del mismo "CAJA"-->
+<!--SEGUIR CON TS del otro "INTERIOR"-->
+
+<!--1ºEXCLUSIVO del otro "INTERIOR" EN CORCHETES-->
+<!--(2ºNOMBRE)-->
+    <app-exclusivo [exclusivo] = "exclu"></app-exclusivo>
+  </div>
+
