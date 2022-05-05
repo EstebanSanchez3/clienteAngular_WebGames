@@ -16,9 +16,10 @@
     justify-content: space-around;
     border-radius: 20px;
     margin-bottom: 5px;
-    background-color: black;
+    background: hsl(254, 96%, 10%); 
     border-style: solid ;
     border-color: white;
+    border-bottom-color:black;
     border-top-width: 5px;
     border-right-width: 0px;
     border-bottom-width: 5px;
@@ -59,7 +60,7 @@
     color: white;
     font-size: 40px;
     text-decoration: underline overline;
-    text-decoration-color: rgb(79, 69, 69) ;
+    text-decoration-color: white ;
 }
 
 .M_Texto_Informacion{
@@ -68,9 +69,6 @@
     font-weight: bold;
     color: white;
     font-size: 20px;
-    text-decoration: underline;
-    -webkit-text-decoration-color: rgb(79, 69, 69);
-    text-decoration-color: rgb(79, 69, 69);
     display: flex;
     flex-flow: row;
     flex-direction: column;
@@ -78,7 +76,11 @@
 }
 
 .M_Separacion_Informacion{
-    border-right-style: solid ;
+    color: black;
+    border-style: solid;
+    font-weight: bold;
+    background: linear-gradient(to right, #0b0b83, #1cb5e0);
+    border-radius: 10px;
 }
 
 .M_Texto_Sinopsis {
