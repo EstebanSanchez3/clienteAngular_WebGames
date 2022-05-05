@@ -1,0 +1,37 @@
+/*----------------------------------FOOTER*/
+@import url('https://fonts.googleapis.com/css2?family=Nova+Mono&display=swap');
+
+.F_Footer {
+    background-color:rgb(53, 102, 172) ;
+    position: fixed;
+    width:100%;
+    position: absolute;
+    bottom: -30px;
+    padding-bottom: 10px;
+    border-color: white;
+    border-bottom-color:black;
+    border-radius: 20px;
+    border-style: solid;
+    border-top-width: 4px;
+    border-right-width: 0px;
+    border-bottom-width: 4px;
+    border-left-width: 0px;
+}
+
+.F_Contenedor {
+    flex-flow: wrap;
+}
+
+.F_Footer_Informacion {
+    font-family: 'Nova Mono', monospace;
+    color: white;
+    font-weight: bold;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+}
+
+.F_Redes {
+    border-radius: 10px;
+}

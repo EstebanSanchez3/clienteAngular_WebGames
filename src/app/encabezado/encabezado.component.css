@@ -29,6 +29,7 @@
     margin: 5px;
     margin-top: 10px;
     width: 250px;
+    height: 30px;
     border-style: solid;
     text-align: center;
     border-radius: 10px;
@@ -36,7 +37,7 @@
     border-left: 0px;
     border-right: 0px;
     padding: 5px;
-    cursor: pointer
+    cursor: pointer;
 }
 
 .H_Logo_Nombre{
