@@ -1,6 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Nova+Mono&display=swap');
 
 .H_Cabecera{
+    font-family: 'Nova Mono', monospace;
+    font-weight: bold;
+    color: white;
     background: linear-gradient(to right, #0b0b83, #1cb5e0); 
     border-color: black;
     border-bottom-color:white;
@@ -10,37 +13,19 @@
     border-right-width: 3px;
     border-bottom-width: 5px;
     border-left-width: 3px;
+    width: 100%;
+    margin: auto;
+    box-sizing: border-box;
+    display: flex;
+    flex-flow: column;
 }
+
 
 
 
 /*-------------------FIN DE GENERAL*/
 
-.H_Caja_Busca{
-    font-family: 'Nova Mono', monospace;
-    font-size: 70px;
-    font-weight: bold;
-    color: white;
-    display: flex;
-    flex-flow: column;
-}
-
-.H_Buscador {
-    margin: 5px;
-    margin-top: 10px;
-    width: 250px;
-    height: 30px;
-    border-style: solid;
-    text-align: center;
-    border-radius: 10px;
-    border-top: 0px;
-    border-left: 0px;
-    border-right: 0px;
-    padding: 5px;
-    cursor: pointer;
-}
-
-.H_Logo_Nombre{
+.H_Logo_Nombre_Busca{
     float: left;
     display: flex;
     margin-left: 10px;
@@ -61,3 +46,46 @@
     color: white;
     margin-left: 50px;
 }
+
+.H_Buscador {
+    margin: 5px;
+    margin-top: 10px;
+    width: 250px;
+    height: 30px;
+    border-style: solid;
+    text-align: center;
+    border-radius: 10px;
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    padding: 5px;
+    cursor: pointer;
+}
+
+
+@media screen and (max-width:1493px) {
+    body{
+        background-color: crimson;
+    }
+
+    .H_Cabecera{
+        width: 100%;
+        box-sizing: content-box;
+
+    }
+    .H_Logo_Nombre{
+        width: 100%;
+    }
+
+    #H_Nombre_Empresa{
+        font-size: 50px;
+    }
+
+
+
+
+}
+
+
+
+

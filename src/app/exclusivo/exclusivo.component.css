@@ -62,14 +62,23 @@
     text-decoration-color: rgb(79, 69, 69) ;
 }
 
-.M_Texto_Anio{
+.M_Texto_Informacion{
     font-family: 'Nova Mono', monospace;
-    text-align: center;
+     text-align: center; 
     font-weight: bold;
     color: white;
-    font-size: 30px;
+    font-size: 20px;
     text-decoration: underline;
-    text-decoration-color: rgb(79, 69, 69) ;
+    -webkit-text-decoration-color: rgb(79, 69, 69);
+    text-decoration-color: rgb(79, 69, 69);
+    display: flex;
+    flex-flow: row;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.M_Separacion_Informacion{
+    border-right-style: solid ;
 }
 
 .M_Texto_Sinopsis {
